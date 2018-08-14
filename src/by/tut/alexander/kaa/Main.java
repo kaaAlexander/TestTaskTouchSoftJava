@@ -34,7 +34,7 @@ public class Main {
                 for (String dataElement : data) {
                     String[] time = dataElement.split(":");
                     if (time.length != 2) {
-                        System.out.println("Data error! In time : " + time.toString() + " in line " + lineNumber);
+                        System.out.println("Data error! In time : " + time + " in line " + lineNumber);
                     } else {
                         try {
                             Double hours = Double.parseDouble(time[0]);
